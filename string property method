@@ -1,0 +1,40 @@
+a="hello world"
+print (a+" this is nivetha")
+
+b="nivetha "
+print(b+"sivasankaran")
+
+a="nivi"
+b=a+" siva"
+print(b)
+
+name =" nivetha"
+print(name*5)
+
+name ="nivetha"
+print(name.upper())
+print(name.lower())
+
+x="its is very nice "
+print(x.split())
+
+print("the {} {} {}".format('sun','is','shine'))
+
+print("the {0} {0} {0}".format('sun','is','shine'))
+
+print ("the {2} {1} {0} ".format('sun','is','shine'))
+
+print("the {su} {i} {s}".format (su='sun',i='is', s='shine'))
+
+mark=567/600
+print(mark)
+print("the mark is {}".format(mark))
+print("the mark is {m}".format(m=mark ))
+print("the mark is {m:2.2f}".format(m=mark))
+
+name ="jeeva "
+print(f'hello this is {name}')
+
+name ="praba"
+age=50
+print(f"{name} is {age} year old")
