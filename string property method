@@ -42,4 +42,43 @@ print("the {} {} {}".format('sun', 'is', 'shine'))
 # the sun is shine
 
 
-print("the {0} {0} {0}".format('sun', 'is', '
+print("the {0} {0} {0}".format('sun', 'is', 'shine'))
+
+# the sun sun sun
+
+
+print("the {2} {1} {0}".format('sun', 'is', 'shine'))
+
+# the shine is sun
+
+
+print("the {su} {i} {s}".format(su='sun', i='is', s='shine'))
+
+# the sun is shine
+
+
+mark = 567 / 600
+print(mark)
+print("the mark is {}".format(mark))
+print("the mark is {m}".format(m=mark))
+print("the mark is {m:2.2f}".format(m=mark))
+
+# 0.945
+# the mark is 0.945
+# the mark is 0.945
+# the mark is 0.94
+
+
+name = "jeeva "
+print(f'hello this is {name}')
+
+# hello this is jeeva
+
+
+name = "praba"
+age = 50
+print(f"{name} is {age} year old")
+
+# praba is 50 year old
+
+
