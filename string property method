@@ -1,40 +1,45 @@
-a="hello world"
-print (a+" this is nivetha")
+a = "hello world"
+print(a + " this is nivetha")
 
-b="nivetha "
-print(b+"sivasankaran")
+# hello world this is nivetha
 
-a="nivi"
-b=a+" siva"
+
+b = "nivetha "
+print(b + "sivasankaran")
+
+# nivetha sivasankaran
+
+
+a = "nivi"
+b = a + " siva"
 print(b)
 
-name =" nivetha"
-print(name*5)
+# nivi siva
 
-name ="nivetha"
+
+name = " nivetha"
+print(name * 5)
+
+#  nivetha nivetha nivetha nivetha nivetha
+
+
+name = "nivetha"
 print(name.upper())
 print(name.lower())
 
-x="its is very nice "
+# NIVETHA
+# nivetha
+
+
+x = "its is very nice "
 print(x.split())
 
-print("the {} {} {}".format('sun','is','shine'))
+# ['its', 'is', 'very', 'nice']
 
-print("the {0} {0} {0}".format('sun','is','shine'))
 
-print ("the {2} {1} {0} ".format('sun','is','shine'))
+print("the {} {} {}".format('sun', 'is', 'shine'))
 
-print("the {su} {i} {s}".format (su='sun',i='is', s='shine'))
+# the sun is shine
 
-mark=567/600
-print(mark)
-print("the mark is {}".format(mark))
-print("the mark is {m}".format(m=mark ))
-print("the mark is {m:2.2f}".format(m=mark))
 
-name ="jeeva "
-print(f'hello this is {name}')
-
-name ="praba"
-age=50
-print(f"{name} is {age} year old")
+print("the {0} {0} {0}".format('sun', 'is', '
