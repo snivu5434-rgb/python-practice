@@ -1,25 +1,58 @@
+
 my_name = "nivetha s"
 print(my_name)
 
-print(" hello \t world  ")
+# nivetha s
 
-my_name= "nivetha"
+
+print("hello\tworld")
+
+# hello    world
+
+
+my_name = "nivetha"
 print(len(my_name))
 
-mystr="hello world"
+# 7
+
+
+mystr = "hello world"
+
 print(mystr[0])
+# h
+
 print(mystr[5])
+#  
+
 print(mystr[8])
+# r
+
 print(mystr[-1])
+# d
+
 print(mystr[-10])
+# e
+
 print(mystr[-5])
+# w
+
 print(mystr[9])
+# l
+
 print(mystr[4])
+# o
+
 print(mystr[0:11])
+# hello world
+
 print(mystr[0:10])
+# hello worl
+
 print(mystr[0:8:3])
+# hlr
+
 print(mystr[0:5:2])
+# hlo
+
 print(mystr[11:0:-1])
-
-
-
+# dlrow ol
