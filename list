@@ -1,0 +1,96 @@
+# List Creation
+mylist = [1, 2, 3]
+print(mylist)
+# Output: [1, 2, 3]
+
+
+# Mixed List
+mylist = ["sky", 100, 23.2]
+print(mylist)
+# Output: ['sky', 100, 23.2]
+
+
+# Length of List
+mylist = ["one", "two", "three"]
+print(len(mylist))
+# Output: 3
+
+
+# Access First Element
+mylist = ["one", "two", "three"]
+print(mylist[0])
+# Output: one
+
+
+# Access Last Element
+mylist = ["one", "two", "three"]
+print(mylist[-1])
+# Output: three
+
+
+# List Slicing
+mylist = ["one", "two", "three", "four", "five", "six"]
+newlist = mylist[1:]
+print(newlist)
+# Output: ['two', 'three', 'four', 'five', 'six']
+
+
+# Append
+mylist = ["one", "two", "three", "four", "five"]
+mylist.append("six")
+print(mylist)
+# Output: ['one', 'two', 'three', 'four', 'five', 'six']
+
+
+# Insert
+new_list = ["one", "two", "three", "four", "five", "six"]
+new_list.insert(0, "zero")
+print(new_list)
+# Output: ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
+
+
+# Pop
+new_list = ["one", "two", "three", "four", "five", "six", "seven"]
+new_list.pop()
+print(new_list)
+# Output: ['one', 'two', 'three', 'four', 'five', 'six']
+
+
+# Sort
+new_list = ["a", "e", "x", "B", "Z"]
+new_list.sort()
+print(new_list)
+# Output: ['B', 'Z', 'a', 'e', 'x']
+
+
+# Reverse
+new_list = ["one", "two", "three", "four"]
+new_list.reverse()
+print(new_list)
+# Output: ['four', 'three', 'two', 'one']
+
+
+# Remove
+new_list = ["one", "two", "three", "four"]
+new_list.remove("two")
+print(new_list)
+# Output: ['one', 'three', 'four']
+
+
+# Clear
+new_list = ["one", "two", "three"]
+new_list.clear()
+print(new_list)
+# Output: []
+
+
+# Index
+new_list = ["one", "two", "three", "four"]
+print(new_list.index("three"))
+# Output: 2
+
+
+# Count
+numbers = [1, 2, 3, 2, 4, 2]
+print(numbers.count(2))
+# Output: 3
