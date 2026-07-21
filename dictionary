@@ -1,0 +1,98 @@
+my_dict = {'apple': 20, 'orange': 30, 'grapes': 50}
+print(my_dict)
+# {'apple': 20, 'orange': 30, 'grapes': 50}
+
+print(my_dict['orange'])
+# 30
+  
+print(my_dict['apple'])
+# 20
+
+d = {'key1': ['a', 'b', 'c']}
+print(d['key1'])
+# ['a', 'b', 'c']
+
+my_list = d['key1']
+print(my_list)
+# ['a', 'b', 'c']
+
+print(my_list[1].upper())
+# B
+
+
+print(my_list[1].lower())
+# b
+
+
+d = {'k1': 2, 'k2': 6}
+d['k2'] = 50
+print(d)
+# {'k1': 2, 'k2': 50}
+
+print(d.keys())
+# dict_keys(['k1', 'k2'])
+
+
+print(d.values())
+# dict_values([2, 50])
+
+price_value = {'apple': 250, 'orange': 300, 'grapes': 50}
+print(price_value['orange'])
+# 300
+  
+num = {
+    'k1': 2123,
+    'k2': 21,
+    'k3': {'inside_key': 100},
+    'k4': [0, 1, 2]
+}
+print(num['k4'])
+# [0, 1, 2]
+
+
+print(num['k3'])
+# {'inside_key': 100}
+
+
+print(num['k3']['inside_key'])
+# 100
+
+
+print(num['k4'][2])
+# 2
+
+
+d = {'key1': ['a', 'b', 'c']}
+mylist = d['key1']
+print(mylist)
+# ['a', 'b', 'c']
+
+letter = mylist[2]
+print(letter)
+# c
+
+print(letter.upper())
+# C
+
+print(letter.lower())
+# c
+
+d = {}
+d['k1'] = 100
+d['k2'] = 200
+d['k3'] = 300
+print(d)
+# {'k1': 100, 'k2': 200, 'k3': 300}
+
+d['k1'] = 'new value'
+print(d)
+# {'k1': 'new value', 'k2': 200, 'k3': 300}
+
+print(d.keys())
+# dict_keys(['k1', 'k2', 'k3'])
+
+print(d.values())
+# dict_values(['new value', 200, 300])
+
+print(d.items())
+# dict_items([('k1', 'new value'), ('k2', 200), ('k3', 300)])
