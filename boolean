@@ -1,0 +1,88 @@
+# Program 1
+print(True)
+print(False)
+# True
+# False
+
+# Program 2
+a = True
+b = False
+print(type(a))
+print(type(b))
+# <class 'bool'>
+# <class 'bool'>
+
+# Program 3
+print(10 > 5)
+print(10 < 5)
+# True
+# False
+
+# Program 4
+print(10 == 10)
+print(10 != 5)
+# True
+# True
+
+# Program 5
+print(5 >= 5)
+print(3 <= 2)
+# True
+# False
+
+# Program 6
+print(True and True)
+print(True and False)
+# True
+# False
+
+# Program 7
+print(True or False)
+print(False or False)
+# True
+# False
+
+# Program 8
+print(not True)
+print(not False)
+# False
+# True
+
+# Program 9
+a = 10
+b = 20
+print(a < b and b > 15)
+# True
+
+# Program 10
+a = 5
+b = 8
+print(a > b or b > 3)
+# True
+
+# Program 11
+x = None
+print(x)
+print(type(x))
+# None
+# <class 'NoneType'>
+
+# Program 12
+print(bool(0))
+print(bool(1))
+print(bool(""))
+print(bool("Python"))
+# False
+# True
+# False
+# True
+
+# Program 13
+print(bool([]))
+print(bool([1,2]))
+print(bool({}))
+print(bool({1,2}))
+# False
+# True
+# False
+# True
