@@ -1,0 +1,76 @@
+# Program 1
+myset = set()
+print(myset)
+# {}
+
+# Program 2
+myset = set()
+myset.add("1")
+print(myset)
+# {'1'}
+
+# Program 3
+myset = set()
+myset.add("1")
+myset.add("2")
+print(myset)
+# {'1', '2'}
+
+# Program 4
+mylist = [1,2,3,2,3,12,4,3,4,6]
+print(set(mylist))
+# {1, 2, 3, 4, 6, 12}
+
+# Program 5
+myset = {10,20,30}
+myset.add(40)
+print(myset)
+# {10, 20, 30, 40}
+
+# Program 6
+myset = {10,20,30}
+myset.remove(20)
+print(myset)
+# {10, 30}
+
+# Program 7
+myset = {10,20,30}
+myset.discard(50)
+print(myset)
+# {10, 20, 30}
+
+# Program 8
+myset = {10,20,30}
+print(len(myset))
+# 3
+
+# Program 9
+myset = {10,20,30}
+print(20 in myset)
+print(100 in myset)
+# True
+# False
+
+# Program 10
+a = {1,2,3}
+b = {3,4,5}
+print(a.union(b))
+# {1, 2, 3, 4, 5}
+
+# Program 11
+a = {1,2,3}
+b = {2,3,4}
+print(a.intersection(b))
+# {2, 3}
+
+# Program 12
+a = {1,2,3}
+b = {2,3,4}
+print(a.difference(b))
+# {1}
+
+# Program 13
+a = {1,2,3}
+b = {2,3,4}
+print(a.symmetric_difference(b))
+# {1, 4}
