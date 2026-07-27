@@ -1,0 +1,91 @@
+print(10==10)
+# True
+
+print(10!=5)
+# True
+
+print(20>15)
+# True
+
+print(15<10)
+# False
+
+print(10>=10)
+# True
+
+print(5<=8)
+# True
+
+print(7%2==1)
+# True
+
+print(8%2==0)
+# True
+
+print(5>2 and 8>3)
+# True
+
+print(5>2 and 8<3)
+# False
+
+print(5<2 or 8>3)
+# True
+
+print(5<2 or 8<3)
+# False
+
+print(not(5==5))
+# False
+
+print(not(5!=5))
+# True
+
+a=10
+b=20
+print(a<b)
+# True
+
+a=15
+b=15
+print(a==b)
+# True
+
+age=19
+print(age>=18)
+# True
+
+mark=32
+print(mark>=35)
+# False
+
+password=1234
+print(password==1234)
+# True
+
+username="nivetha"
+print(username=="nivetha")
+# True
+
+print((10>5) and (20>10))
+# True
+
+print((10>5) or (20<10))
+# True
+
+print((10<5) or (20<10))
+# False
+
+print((10<5) and (20>10))
+# False
+
+print((5+5)==10)
+# True
+
+print((9//2)==4)
+# True
+
+print((10/2)==5)
+# True
+
+print((3*4)==12)
+# True
