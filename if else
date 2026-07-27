@@ -17,3 +17,57 @@ else:
     print("thank you for sharing your feeling")
 #enter the feeling:nothing
 thank you for sharing your feeling
+
+num=int(input("Enter a number: "))
+
+if(num%2==0):
+    print("Even Number")
+else:
+    print("Odd Number")
+
+#Enter a number:8
+#Even Number
+
+mark=int(input("Enter your mark: "))
+
+if(mark>=90):
+    print("Grade A")
+elif(mark>=75):
+    print("Grade B")
+elif(mark>=50):
+    print("Grade C")
+else:
+    print("Fail")
+
+#Enter your mark:82
+#Grade B
+
+mark=int(input("Enter your mark: "))
+
+if(mark>=35):
+    print("Pass")
+else:
+    print("Fail")
+
+#Enter your mark:78
+
+password=int(input("Enter Password: "))
+
+if(password==1234):
+    print("Login Success")
+else:
+    print("Login Failed")
+
+#Enter Password:1234
+#Login Success
+
+age=int(input("Enter your age: "))
+
+if(age>=18):
+    print("Eligible to Vote")
+else:
+    print("Not Eligible to Vote")
+
+#Enter your age:19
+#Eligible to Vote
+#Pass
