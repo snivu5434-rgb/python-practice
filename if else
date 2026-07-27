@@ -1,0 +1,19 @@
+year=int(input("enter the no.of year you're in relationship :"))
+if(year>=4 and year <=10):
+    print("you're in healthy relationship")
+else:
+    print("pls stay single..!")
+#enter the no.of year you're in relationship :1
+#pls stay single..!
+
+feel=input("enter the feeling:")
+if (feel=="sensitive"):
+    print("act like a bold")
+elif(feel =="fear"):
+    printf("act like a chill")
+elif(feel == "shy"):
+    print("act like a confident")
+else:
+    print("thank you for sharing your feeling")
+#enter the feeling:nothing
+thank you for sharing your feeling
