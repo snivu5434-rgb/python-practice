@@ -1,0 +1,109 @@
+# Program 1 - String to List
+mystr="python"
+mylist=[]
+for letter in mystr:
+    mylist.append(letter)
+print(mylist)
+# Output
+# ['p', 'y', 't', 'h', 'o', 'n']
+
+
+# Program 2 - List Comprehension
+mystr="python"
+mylist=[x for x in mystr]
+print(mylist)
+# Output
+# ['p', 'y', 't', 'h', 'o', 'n']
+
+
+# Program 3 - Numbers 1 to 10
+mylist=[x for x in range(1,11)]
+print(mylist)
+# Output
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+# Program 4 - Even Numbers
+mylist=[x for x in range(1,11) if x%2==0]
+print(mylist)
+# Output
+# [2, 4, 6, 8, 10]
+
+
+# Program 5 - Odd Numbers
+mylist=[x for x in range(1,11) if x%2!=0]
+print(mylist)
+# Output
+# [1, 3, 5, 7, 9]
+
+
+# Program 6 - Square
+mylist=[x*x for x in range(1,11)]
+print(mylist)
+# Output
+# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# Program 7 - Cube
+mylist=[x**3 for x in range(1,11)]
+print(mylist)
+# Output
+# [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+
+
+# Program 8 - True / False
+mylist=[x%2==0 for x in range(1,11)]
+print(mylist)
+# Output
+# [False, True, False, True, False, True, False, True, False, True]
+
+
+# Program 9 - Even or Odd
+mylist=[x if x%2==0 else "odd" for x in range(1,11)]
+print(mylist)
+# Output
+# ['odd', 2, 'odd', 4, 'odd', 6, 'odd', 8, 'odd', 10]
+
+
+# Program 10 - Multiply Two Lists
+my=[x*y for x in [2,3,4] for y in [10,20,30]]
+print(my)
+# Output
+# [20, 40, 60, 40, 80, 120, 60, 120, 180]
+
+
+# Program 11 - Uppercase
+mystr="python"
+mylist=[x.upper() for x in mystr]
+print(mylist)
+# Output
+# ['P', 'Y', 'T', 'H', 'O', 'N']
+
+
+# Program 12 - Length of Words
+words=["cat","apple","python"]
+mylist=[len(x) for x in words]
+print(mylist)
+# Output
+# [3, 5, 6]
+
+
+# Program 13 - Multiplication Table of 5
+mylist=[5*x for x in range(1,11)]
+print(mylist)
+# Output
+# [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+
+
+# Program 14 - First Letter
+names=["Ram","Sam","Hari"]
+mylist=[x[0] for x in names]
+print(mylist)
+# Output
+# ['R', 'S', 'H']
+
+# Program 15 - String Length
+names=["Ram","Sam","Hari"]
+mylist=[len(x) for x in names]
+print(mylist)
+# Output
+# [3, 3, 4]
