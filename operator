@@ -1,0 +1,178 @@
+# Program 1 - enumerate()
+
+name="nivetha"
+
+for index,letter in enumerate(name):
+    print(index,letter)
+
+# Output
+# 0 n
+# 1 i
+# 2 v
+# 3 e
+# 4 t
+# 5 h
+# 6 a
+
+
+# Program 2 - enumerate(start=1)
+
+name="python"
+
+for index,letter in enumerate(name,start=1):
+    print(index,letter)
+
+# Output
+# 1 p
+# 2 y
+# 3 t
+# 4 h
+# 5 o
+# 6 n
+
+
+# Program 3 - zip()
+
+name=["Ram","Sam","Hari"]
+age=[20,21,22]
+
+for n,a in zip(name,age):
+    print(n,a)
+
+# Output
+# Ram 20
+# Sam 21
+# Hari 22
+
+
+# Program 4 - zip() with 3 lists
+
+my1=[1,2,3]
+my2=[10,20,30]
+my3=[100,200,300]
+
+for item in zip(my1,my2,my3):
+    print(item)
+
+# Output
+# (1, 10, 100)
+# (2, 20, 200)
+# (3, 30, 300)
+
+
+# Program 5 - max() and min()
+
+my=[5,8,2,10,1]
+
+print(max(my))
+print(min(my))
+
+# Output
+# 10
+# 1
+
+
+# Program 6 - len()
+
+name="python"
+
+print(len(name))
+
+# Output
+# 6
+
+
+# Program 7 - input()
+
+name=input("Enter your name: ")
+
+print(name)
+
+# Output
+# Enter your name: Nivetha
+# Nivetha
+
+
+# Program 8 - type()
+
+n=input("Enter number: ")
+
+print(type(n))
+
+# Output
+# Enter number: 25
+# <class 'str'>
+
+
+# Program 9 - int()
+
+n=int(input("Enter number: "))
+
+print(type(n))
+
+# Output
+# Enter number: 25
+# <class 'int'>
+
+
+# Program 10 - float()
+
+n=float(input("Enter number: "))
+
+print(type(n))
+
+# Output
+# Enter number: 25
+# <class 'float'>
+
+
+# Program 11 - int to float
+
+n=10
+
+print(float(n))
+
+# Output
+# 10.0
+
+
+# Program 12 - float to int
+
+n=15.8
+
+print(int(n))
+
+# Output
+# 15
+
+
+# Program 13 - str()
+
+n=100
+
+print(str(n))
+print(type(str(n)))
+
+# Output
+# 100
+# <class 'str'>
+
+
+# Program 14 - abs()
+
+print(abs(-25))
+print(abs(18))
+
+# Output
+# 25
+# 18
+
+
+# Program 15 - round()
+
+print(round(15.6))
+print(round(15.2))
+
+# Output
+# 16
+# 15
